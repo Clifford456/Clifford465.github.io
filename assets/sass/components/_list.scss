@@ -1,7 +1,7 @@
 ///
-/// Paradigm Shift by HTML5 UP
-/// html5up.net | @ajlkn
-/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+/// Threshold by Pixelarity
+/// pixelarity.com | hello@pixelarity.com
+/// License: pixelarity.com/license
 ///
 
 /* List */
@@ -29,7 +29,7 @@
 			list-style: none;
 			padding-left: 0;
 
-			> li {
+			li {
 				border-top: solid 1px _palette(border);
 				padding: 0.75rem 0;
 
@@ -43,42 +43,14 @@
 				}
 			}
 		}
-
-		&.items {
-			list-style: none;
-			padding-left: 0;
-
-			> li {
-				padding-left: 0;
-				margin: 0 0 (_size(element-margin) * 1.5) 0;
-
-				> h3 {
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
-				}
-
-				> :last-child {
-					margin-bottom: 0;
-				}
-
-				&:last-child {
-					margin-bottom: 0;
-				}
-			}
-		}
-
-		@include breakpoint('<=small') {
-			&.items {
-				> li {
-					margin: 0 0 (_size(element-margin) * 1) 0;
-				}
-			}
-		}
 	}
 
 	dl {
+		color: _palette(fg-bold);
 		margin: 0 0 _size(element-margin) 0;
 
 		dt {
+			color: _palette(fg-bold);
 			display: block;
 			font-weight: _font(weight-bold);
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
